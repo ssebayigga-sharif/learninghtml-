@@ -1,0 +1,62 @@
+div {
+    height: 600px;
+    width: 800px;
+    background-color: aliceblue;
+    border-radius: 100px;
+    text-align: center;
+    
+}
+
+body {
+    background-color: rgb(169, 226, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 4vw;
+}
+.me {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 220px;
+    padding-right: 220px;
+    border: 2px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.him {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: 3px solid rgb(29, 168, 223);
+    border-radius: 20px;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.her {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 260px;
+    border: 2px solid;
+    border-radius: 20px; 
+    background-color:skyblue;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.de {
+    float: left;
+    padding-left: 200px;
+    border: none;
+    font-size: 20px;
+}
+.re {
+    float: right;
+    padding-right: 200px;
+    border: none;
+    font-size: 20px;
+}

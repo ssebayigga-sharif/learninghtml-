@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(140, 241, 241);
+}
+.man {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(155, 14, 14);
+}
+.girl {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.445);
+}
+.cow {
+    width: 400px;
+    height: 200px;
+    background-color:rgb(255, 192, 197) ;
+}
+.container {
+    display: flex;
+}

@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: #fff;
+}
+h3 {
+    color: rgb(240, 9, 9);
+    padding-left: 20px;
+}
+h4 {
+    color: rgb(255, 0, 76);
+    padding-right: 30px;
+}
+header {
+color: #fff;
+background-color: #333;
+padding: 0 20px;
+margin-top: 0%;
+display: flex;
+}
+  ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+ }
+ ul li {
+    list-style-type: none;
+    padding: 20px;
+    padding-right: 20px;
+ }
+ li {
+    float: left;
+ }

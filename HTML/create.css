@@ -1,0 +1,41 @@
+section {
+    width: 700px;
+    height: 600px;
+    background-color: bisque;
+    border-radius: 50px;
+    text-align: center;
+}
+body {
+    background-color: rgb(212, 205, 205);
+    justify-content: center;
+    display: flex;
+}
+span {
+    color: rgb(10, 189, 248);
+}
+button {
+
+    background-color: rgb(115, 208, 240);
+    color: white;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 100px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.him {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(97, 205, 241);
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+}

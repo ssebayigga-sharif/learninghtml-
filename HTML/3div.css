@@ -1,0 +1,27 @@
+.congo {
+display: flex;
+font-size: 30px;
+justify-content: space-between;
+}
+.one {
+width: 100px;
+height: 100px; background-color: #333;
+color: #f4f4f4;
+padding: 10px;
+}
+@media screen and (max-width:900px){
+    .one {
+    background-color: rgb(207, 255, 192);
+    color: red;
+    }
+}
+@media screen and (max-width:700px){
+ .congo {
+    background-color: red;
+ }
+}
+@media screen and (max-width:500px){
+    .one {
+width: 100%;
+    }
+}

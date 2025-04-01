@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+
+  <body>
+    <!-- this is a form with input type text -->
+    <h1>this is a form.</h1>
+    <form method="post">
+      <fieldset>
+        <legend>personalia</legend>
+        <p>
+          <label for="firstName"> FirstName:</label>
+          <input
+            type="text"
+            name="firstName"
+            id=" firstName"
+            placeholder="sharif" size="50"
+          />
+        </p>
+        <p>
+          <label for="lastName"> lastName:</label>
+          <input
+            type="text"
+            name="lastName"
+            id=" lastName"
+            placeholder="kaggwa" size="50" maxlength="3"
+          />
+        </p>
+        <p>
+          <label for="password"> password:</label>
+          <input
+            type="text"
+            name="pswd"
+            id=" password"
+            placeholder="password"
+            required
+          />
+        </p>
+        <p>
+          <button type="submit">submit</button>
+          <button type="reset">reset</button>
+        </p>
+      </fieldset>
+    </form>
+    <!-- this is a form with input type radio. -->
+    <h2>what is your home city?</h2>
+    <form action="" method="post">
+      <input type="radio" name="city" id="kampala" value="kampala" />
+      <label for="kampala">kampala.</label>
+      <br /><br />
+      <input type="radio" name="city" id="wakiso" value="wakiso" />
+      <label for="wakiso">wakiso</label>
+      <br /><br />
+      <input type="radio" name="city" id="masaka" value="masaka" />
+      <label for=" masaka">masaka</label>
+      <br /><br />
+      <input type="radio" name="city" id="mbarara" value="mbarara" />
+      <label for="mbarara">mbarara.</label>
+      <br />
+      <p><button type="submit">submit answer</button></p>
+    </form>
+    <!-- this is a form withinput checkbox -->
+    <h2>which of the following cars have u ever seen?</h2>
+    <form action="" method="post">
+      <input type="checkbox" name="car" id="mark x" value="mark x" />
+      <label for=" mark x">mark x</label>
+      <br /><br />
+      <input type="checkbox" name="car" id="outlander" value="outlander" />
+      <label for=" outlander"> outlander</label>
+      <br /><br />
+      <input type="checkbox" name="car" id="tesla" value="tesla" />
+      <label for="tesla"> tesla</label>
+      <br /><br />
+      <input type="checkbox" name="car" id="sienta" value="sienta" />
+      <label for="sienta">sienta</label>
+      <br /><br />
+      <input type="checkbox" name="car" id="other" value="other" />
+      <label for="other">other</label>
+      <br />
+      <button type="submit">submit answer</button>
+    </form>
+    <!-- form for logging in a page with input type text -->
+    <h3>login</h3>
+    <form action="" method="post">
+      <label for="userName">Username:</label>
+      <input
+        type="text"
+        name="usname"
+        id="userName"
+        required
+        placeholder="Username"
+      />
+
+      <br /><br />
+      <label for="passWord">Password:</label>
+      <input
+        type="text"
+        name="pswd"
+        id=" passWord"
+        required
+        placeholder="pswd"
+      />
+
+      <br /><br />
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+    <br /><br />
+    <!-- select element. -->
+    <label for="subjects"> choose your favorite subject.</label>
+    <select name="subjects" id="subjects" size="4" multiple>
+      <option value="physics">physics</option>
+      <option value="chemistry">chemistry</option>
+      <option value="history">history</option>
+      <option value="ent">ent</option>
+      <option value="cre">cre</option>
+      <option value="biology" selected>biology</option>
+      <option value="english">english</option>
+      <option value="commerce">commerce</option>
+      <option value="literature">literature</option>
+    </select>
+    <button type="submit">submit</button>
+    <br /><br /><br />
+    <textarea name="message" id="" cols="30" rows="10">
+        my dream is being a good programmer.
+    </textarea>
+    <br />
+    <button type="submit">submit</button>
+    <br /><br /><br />
+    <form action="" method="post">
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="safari"></option>
+        <option value="firefox"></option>
+        <option value="edge"></option>
+      </datalist>
+      <button type="submit">submit</button>
+    </form>
+    <br /><br />
+    <form action="" method="post">
+      <label for="favorite color"> what is your favorite color.</label>
+      <input type="color" name="fav-colo" id="favorite color" />
+      <button type="submit">submit</button>
+    </form>
+    <br /><br />
+    <form action="" method="post">
+      <label for="birthday"> birthday</label>
+      <input type="date" name="birthday" id="birthday" />
+      <br /><br />
+      <button type="submit">submit</button>
+      <br /><br />
+      <label for="birthday">birthday</label>
+      <input type="datetime-local" name="birthday" id="birthday" />
+      <br /><br />
+      <button type="submit">submit</button>
+      <br /><br />
+      <label for="email">your email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <input
+        type="image"
+        src="download (1).jpg"
+        alt="submit"
+        width="50"
+        height="50"
+      />
+      <br /><br />
+      <label for="file"> choose file</label>
+      <input type="file" name="file" id="file" />
+      <br /><br />
+      <input
+        type="image"
+        src="download (8).jpg"
+        alt="submit"
+        width="60"
+        height="60"
+      />
+      <br /><br />
+      <label for=" week">week</label>
+      <input type="week" name="week" id="week" />
+      <br />
+      <button type="submit">submit</button>
+      <br><br>
+      <label for="hpage">add your homepage</label>
+      <input type="url" name="homepage" id="hpage" />
+      <br><br>
+      <button type="submit">submit</button>
+      <br><br>
+      <label for="time">time</label>
+      <input type="time" name="time" id="time">
+      <br><br>
+      <button type="submit">submit</button>
+      <br><br>
+      <label for="tel">tel</label>
+      <input type="tel" name="telephone" id="tel">
+      <br><br>
+      <button type="submit">submit</button>
+      <br><br>
+      <label for="search"> googlesearch</label>
+      <input type="search" name="search" id="search">
+      <br><br>
+      <button type="submit">submit</button>
+      <br><br>
+      <label for="volume">volume(0and100)</label>
+      <input type="range" name="vol" id="volume" min="0" max="100">
+      <br><br><br>
+      <label for="quantity">quantity</label>
+      <input type="number" name="quantity" id="quantity" max="100" min="0" step="10" value="20">
+      <br><br>
+      <fieldset>
+        <legend>about me</legend>
+        <label for="fname">FirstName</label>
+        <input type="hidden" name="firstname" id="fname" placeholder="jhn" size="80">
+        <input type="hidden" name="name" id="fname" value="23479t">
+      </fieldset>
+
+    </form>
+  </body>
+</html>

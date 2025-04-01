@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-image</title>
+    <link rel="shortcut icon" href="download (2).jpg" type="image/x-icon">
+    <style>
+            body {
+            background-image: url('download (2).jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: relative; /* Needed for the overlay */
+            color: white; /* Make the text white for better visibility */
+        }
+ 
+        /* Overlay to dim the background */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Dim the background with a black overlay */
+            z-index: -1; /* Ensure the overlay stays behind the text */
+        }
+ 
+        p {
+            text-align: center;
+            margin-top: 200px;
+            color: white; /* Ensure the text is bright */
+            font-size: 24px;
+            z-index: 1; /* Ensure the text is on top */
+        }
+    </style>
+</head>
+<body >
+    <p>am sharif</p>
+    <p>i come from kayunga</p>
+</body>
+</html>

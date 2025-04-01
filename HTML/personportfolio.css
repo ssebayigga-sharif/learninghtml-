@@ -1,0 +1,8 @@
+img {
+    width: 300px;
+    height: 400px;
+}
+body {
+    text-align: center;
+border-image-repeat: repeat;
+}

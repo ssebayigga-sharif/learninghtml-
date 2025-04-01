@@ -1,0 +1,18 @@
+table ,th ,td {
+    border: 1px dotted;
+    margin: auto;
+    border-color: rgb(255, 0, 64);
+    background-color: rgb(42, 207, 207);
+}
+body {
+    text-align: center;
+}
+td,th {
+    padding: 15px;
+}
+table {
+    width: 300px;
+}
+th {
+    width: 100px;
+}
